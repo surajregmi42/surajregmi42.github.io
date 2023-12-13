@@ -57,11 +57,12 @@
 
   p, li, dl {
     font-size: 1em;
+    text-align: justify;
+
   }
 
   /* paragraph indents */
   p {
-    text-align: justify;
     margin: 0 0 $indent-var;
 
     /* sibling indentation*/
