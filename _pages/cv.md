@@ -40,12 +40,12 @@ redirect_from:
 
 ### The World Bank (Data Scientist, Jul. 2018 - Aug. 2021)
 
-* Created household-level poverty prediction models using deep factorization methods, achieving an **F1-score of 0.72**
-* Coauthored a genetic algorithm-based road optimization paper that **reduced road construction costs by 2-3 times**
-* Developed the Python package nepali-roman for Nepali transliteration with over **31K** downloads
-* Designed an automated system for real-time R-number calculation in Nepal using daily COVID figures
-* Developed the Python package pymobility and utilized smartphone data to quantify mobility in Southern Asia
-* Increased efficiency of the team by automating manual data operations using Python
+• Created household-level poverty prediction models using deep factorization methods, achieving an **F1-score of 0.72**<br>
+• Coauthored a genetic algorithm-based road optimization paper that **reduced road construction costs by 2-3 times**<br>
+• Developed the Python package nepali-roman for Nepali transliteration with over **31K** downloads<br>
+• Designed an automated system for real-time R-number calculation in Nepal using daily COVID figures<br>
+• Developed the Python package pymobility and utilized smartphone data to quantify mobility in Southern Asia<br>
+• Increased efficiency of the team by automating manual data operations using Python
 
 ### InfoDevelopers Pvt. Ltd. (AI Developer, Feb. 2018 - Aug. 2018)
 
