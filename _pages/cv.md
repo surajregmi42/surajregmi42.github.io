@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -10,6 +10,8 @@ redirect_from:
 {% include base_path %}
 
 ## Education
+***
+
 * M.S. in Computer Science, University of Alabama in Huntsville (GPA: 4.0, Aug. 2021 - May 2023)<br>
   **Thesis:** Unsupervised Image Segmentation Using Deep Learning<br>
   **Relevant Courses:** Machine Learning, Deep Learning, Reinforcement Learning, Big Data, Data Mining, Algorithms<br>
@@ -19,6 +21,7 @@ redirect_from:
 
 
 ## Work experience
+***
 ### Blue Cross and Blue Shield of Illinois, Texas, Oklahoma, New Mexico, and Montana (Data Scientist, Jun. 2023 - present) 
 
 * Actively working on the development of a rule-based system aimed at identifying discrepancies in coordination of benefits claims, totaling **tens of millions annually** in potential savings
@@ -79,6 +82,7 @@ Teaching
 
 
 ## Volunteering
+***
 ### Girls in Tech - Nepal (Mentor, Aug. 2021 - Dec. 2021) 
 * Help the mentees to decide their career path (professionally and personally in mutual understanding)
 * Share professional experiences and motivate mentees to pursue their choice of profession
