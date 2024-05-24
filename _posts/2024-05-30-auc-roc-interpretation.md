@@ -1,7 +1,7 @@
 ---
-title: 'Blog Post number 4'
-date: 2015-08-14
-permalink: /posts/2012/08/blog-post-4/
+title: 'Interpretation of Area Under the ROC Curve'
+date: 2024-05-30
+permalink: /posts/2024/05/auc-roc-interpretation/
 tags:
   - cool posts
   - category1
