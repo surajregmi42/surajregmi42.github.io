@@ -25,8 +25,8 @@ redirect_from:
 ***
 ### Blue Cross and Blue Shield of Illinois, Texas, Oklahoma, New Mexico, and Montana (Data Scientist, Jun. 2023 - present) 
 
-☐ Actively working on the development of a rule-based system aimed at identifying discrepancies in coordination of benefits claims, totaling **tens of millions annually** in potential savings<br>
-☐ Oversaw the operational facets and vigilantly monitored the monthly recurring jobs across various conceptual domains, ensuring their timely integration into the Claim Recovery Unit (CRU) database<br>
+☐ Designed and developed solution to identify discrepancies in coordination of benefits claims, recovering $25 million USD per annum<br>
+☐ Oversaw the operational facets and vigilantly monitored the monthly recurring jobs across various projects, ensuring their timely integration into the Claim Recovery Unit (CRU) database<br>
 ☐ Contributed to the intern hiring committee by evaluating resumes, conducting in-depth case study reviews, and leading technical interviews to select top-tier candidates
 
 ### NASA-IMPACT, University of Alabama in Huntsville (Graduate Research Assistant, Aug. 2021 - Apr. 2023) 
