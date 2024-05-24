@@ -1,6 +1,6 @@
 ---
 title: 'Interpretation of Area Under the ROC Curve'
-date: 2024-05-30
+date: 2024-05-23
 permalink: /posts/2024/05/auc-roc-interpretation/
 tags:
   - cool posts
