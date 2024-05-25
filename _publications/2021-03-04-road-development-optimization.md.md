@@ -1,7 +1,7 @@
 ---
 title: "Roads development optimization for all-season service accessibility improvement in rural Nepal using a novel cost-time model and evolutionary algorithm"
 collection: publications
-permalink: /publication/2021-01-01-road-development-optimization
+permalink: /publication/2021-03-04-road-development-optimization
 excerpt: 'Roads Development Optimization for All-Season Service Accessibility Improvement in Rural Nepal using a Novel Cost-Time Model and Evolutionary Algorithm'
 date: 2021-03-04
 venue: 'World Bank Policy Research Working Papers'
