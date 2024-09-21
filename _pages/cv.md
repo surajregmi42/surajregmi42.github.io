@@ -12,7 +12,7 @@ redirect_from:
 ## Education
 ***
 * MITx MicroMasters in Statistics and Data Science, MITx on edX (GPA: 4.0, Jan. 2024 - Present)<br>
-  **Relevant Courses:** Probability (6.041x)
+  **Relevant Courses:** Probability (6.041x), Statistics (18.6501x)
 * M.S. in Computer Science, University of Alabama in Huntsville (GPA: 4.0, Aug. 2021 - May 2023)<br>
   **Thesis:** Unsupervised Image Segmentation Using Deep Learning<br>
   **Relevant Courses:** Machine Learning, Deep Learning, Reinforcement Learning, Big Data, Data Mining, Algorithms<br>
