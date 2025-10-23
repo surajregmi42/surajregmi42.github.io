@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Suraj Regmi"
   avatar           : "profile.png"
-  bio              : "Data Scientist, Blue Cross and Blue Shield of Illinois, Montana, New Mexico, Oklahoma, and Texas"
+  bio              : "Senior Data Scientist, Health Care Service Corporation"
   location         : "Chicago, IL"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -185,7 +185,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

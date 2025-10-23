@@ -12,7 +12,8 @@ redirect_from:
 ## Education
 ***
 * MITx MicroMasters in Statistics and Data Science, MITx on edX (GPA: 4.0, Jan. 2024 - Present)<br>
-  **Relevant Courses:** Probability (6.041x), Statistics (18.6501x)
+  **Courses:** Probability (6.041x), Statistics (18.6501x), Machine Learning (6.86x), Statistical Modeling and
+Computation in Applications (6.419x)
 * M.S. in Computer Science, University of Alabama in Huntsville (GPA: 4.0, Aug. 2021 - May 2023)<br>
   **Thesis:** Unsupervised Image Segmentation Using Deep Learning<br>
   **Relevant Courses:** Machine Learning, Deep Learning, Reinforcement Learning, Big Data, Data Mining, Algorithms<br>
@@ -23,11 +24,11 @@ redirect_from:
 
 ## Work experience
 ***
-### Blue Cross and Blue Shield of Illinois, Texas, Oklahoma, New Mexico, and Montana (Data Scientist, Jun. 2023 - present) 
+### Health Care Service Corporation (Senior Data Scientist, Jun. 2023 - present) 
 
-* Designed and developed solution to identify discrepancies in coordination of benefits claims, recovering $25 million USD per annum<br>
+* Designed and developed machine learning-based duplicate claims identification system using Spark and Databricks amounting overpayment recovery of **$35 million USD** per annum
+* Designed and developed solution to identify discrepancies in coordination of benefits claims, recovering **$25 million USD** per annum<br>
 * Oversaw the operational facets and vigilantly monitored the monthly recurring jobs across various projects, ensuring their timely integration into the Claim Recovery Unit (CRU) database<br>
-* Contributed to the intern hiring committee by evaluating resumes, conducting in-depth case study reviews, and leading technical interviews to select top-tier candidates
 
 ### NASA-IMPACT, University of Alabama in Huntsville (Graduate Research Assistant, Aug. 2021 - Apr. 2023) 
 
@@ -43,9 +44,9 @@ redirect_from:
 
 * Created household-level poverty prediction models using deep factorization methods, achieving an **F1-score of 0.72**<br>
 * Coauthored a genetic algorithm-based road optimization paper that **reduced road construction costs by 2-3 times**<br>
-* Developed the Python package nepali-roman for Nepali transliteration with over **31K** downloads<br>
+* Developed the Python package `nepali-roman` for Nepali transliteration with over **31K** downloads<br>
 * Designed an automated system for real-time R-number calculation in Nepal using daily COVID figures<br>
-* Developed the Python package pymobility and utilized smartphone data to quantify mobility in Southern Asia<br>
+* Developed the Python package `pymobility` and utilized smartphone data to quantify mobility in Southern Asia<br>
 * Increased efficiency of the team by automating manual data operations using Python
 
 ### InfoDevelopers Pvt. Ltd. (AI Developer, Feb. 2018 - Aug. 2018)
