@@ -43,11 +43,12 @@ for the new system are represented as $X_1'$, $X_2'$, ..., $X_{n_2}'$.
 ### Hypothesis Formulation
 The null hypothesis we would like to test here would be that the new system is not better than the old system. So, the
 hypothesis formulation would be:
-$H_0: p_1 >= p_2$\
+
+$H_0: p_1 \ge p_2$\
 $H_a: p_1 < p_2$
 
 Let $d$ be improvement in the precision of the new system.
-Then, $d = p_2 - p_1$
+Then, $d = p_2 - p_1$.
 
 Now, the hypothesis can be rewritten as:\
 $H_0: d <= 0$\
@@ -59,6 +60,8 @@ $$ \hat p_1 = \frac{1}{n_1}\sum_{i=0}^{n_1} X_{i} $$ and $$ \hat p_2 = \frac{1}{
 
 By using central limit theorem, both $\hat p_1$ and $\hat p_2$ are normally distributed on 
 $ \mathcal{N}(p_1,\,\frac{p_1(1 - p_1)}{n_1}) $ and $ \mathcal{N}(p_2,\,\frac{p_2(1 - p_2)}{n_2}) $ respectively.
+However, for the central limit theorem to hold, these conditions need to be satisfied:
+$ n_1p_1 \ge 10,  n_1(1-p_1) \ge 10, n_2p_2 \ge 10, n_2(1-p_2) \ge 10$.
 
 So, the difference of the normally distributed random variable is also normally distributed.
 
@@ -71,7 +74,7 @@ should be less than or equal to $\alpha$.
 
 Hence, it should satisfy this condition:
 
-$$\cfrac{\hat d}{\sqrt{\frac{p_2(1 - p_2)}{n_2} + \frac{p_1(1 - p_1)}{n_1}}} <= z_{1-\alpha}$$
+$$\cfrac{\hat d}{\sqrt{\frac{p_2(1 - p_2)}{n_2} + \frac{p_1(1 - p_1)}{n_1}}} \le z_{1-\alpha}$$
 
 ### Power under a Planning Alternative
 For the alternative plan, we need to set minimum detectable effect. Let's define minimum detectable effect as MDE. 
@@ -97,7 +100,33 @@ Using (4), we can solve for sample size ($n_2$) and we would end up with:
 $$ n_2 = \frac{ p_2(1 - p_2) }{ \left( \frac{\text{MDE}}{z_{1-\alpha} - z_{\beta}} \right)^{\!2} - \frac{p_1(1 - p_1)}{n_1} } $$
 
 ### Feasibility Condition
+The denominator in (5) should be greater than 0. So, the following condition should hold true for being able to
+guarantee $\alpha$ type (I) error and $\beta$ type (II) error.
+
+$$ \left( \frac{\text{MDE}}{z_{1-\alpha} - z_{\beta}} \right)^{\!2} > \frac{p_1(1 - p_1)}{n_1} $$
+
+We can rewrite this by solving for $n_1$.
+
+$$ n_1 > p_1(1 - p_1) \left( \frac{z_{1-\alpha} - z_{\beta}}{\text{MDE}} \right)^{\!2} $$
 
 ## Application Example
+Now, let's take an example and work through it. The question we would like to address is the following:
+If the precision of old system was $5\%$ after reviewing $20000$ samples, how many samples would we want to collect if we
+want to detect MDE of $0.5\%$ with $0.05$ level of significance and $80\%$ power.
+
+In this case, $n_1$ would be $20000$, estimate for $p_1$ would be $0.05$, $\alpha$ would be $0.05$, MDE would be $0.005$, 
+and $\beta$ would be $0.2$.
+
+The value for $z_{0.95}$ and $z_{0.2}$ would be $1.64$ and $-0.84$ respectively.
+
+At first let's see if the feasibility condition (7) would be met. Putting the values, the condition would be $n_1 > 11686$.
+So, it satisfies that condition. Let's also check the CLT conditions. For our data, the expected number of positive samples would suffice. 
+The expected number of positive samples is $10000$ and $1100$ for old and new system respectively. So, the CLT condition also holds.
+
+Now, if we put in the values, we would get $n_2$ as $30759$. That's a lot of samples we need to get to make sure we have
+those type (I) and type (II) errors.
 
 ## Final Thoughts
+Personally, this feels awesome to me. This is what gets me excited about statistics, data science, and mathematics. Using the concepts
+from these fields to answer real-life questions with rigor is what makes me awake at night. I stop my pen here with awe.
+Thank you for reading my article!
